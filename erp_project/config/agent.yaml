@@ -1,3 +1,5 @@
+#agents
+
 agents:
   - name: InventoryManager
     role: Manages inventory stock and pricing
