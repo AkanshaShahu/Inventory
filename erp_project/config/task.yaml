@@ -1,0 +1,8 @@
+tasks:
+  - name: UpdateInventoryTask
+    description: Update inventory from input
+    agent: InventoryManager
+
+  - name: ProcessOrderTask
+    description: Fulfill order and adjust stock
+    agent: SalesAgent
