@@ -1,10 +1,9 @@
-from crewai.tools import Tool
-
+from crewai.tools import BaseTool
 from db.mongo import inventory_collection
 from pydantic import BaseModel, Field
 from typing import Type
 
-class InventoryTool(Tool):
+class InventoryTool(BaseTool):
     name = "InventoryTool"
     description = "Tool to update inventory data"
 

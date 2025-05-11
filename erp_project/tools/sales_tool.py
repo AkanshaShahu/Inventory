@@ -1,6 +1,4 @@
 from crewai.tools import BaseTool
-
-
 from db.mongo import inventory_collection, orders_collection
 from pydantic import BaseModel, Field
 from typing import Type
